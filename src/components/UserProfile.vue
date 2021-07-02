@@ -23,8 +23,8 @@
                 <p>Départ:</p> 
                 <p>Arrivé:</p>
                 </div>
-                
-                <p>Mode :</p>
+
+                <p id="mode">Mode :</p>
             </div>
         </div>
     </div>
