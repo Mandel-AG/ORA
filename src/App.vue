@@ -1,13 +1,13 @@
 <template>
-  <user></user>
+  <router-view></router-view>
 </template>
 
 <script>
-import user from './components/UserProfile.vue'
+
 export default {
   name: 'App',
   components: {
-    user
+
   }
 }
 </script>
