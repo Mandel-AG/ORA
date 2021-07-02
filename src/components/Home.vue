@@ -15,6 +15,7 @@
 </template>
 
 <script>
+    
     const Home = {
         data: function() {
             return {
