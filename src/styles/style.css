@@ -1,3 +1,8 @@
+@charset "UTF-8";
+.navbar {
+  z-index: 1;
+}
+
 video {
   object-fit: cover;
   width: 100vw;
@@ -5,6 +10,13 @@ video {
   position: fixed;
   top: 0;
   left: 0;
+}
+
+section {
+  margin-top: 50vh;
+  /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%);
+  /* tiré de la moitié de sa propre hauteur */
 }
 
 .viewport-header {
@@ -17,20 +29,17 @@ video {
 
 h1 {
   font-family: "Syncopate", sans-serif;
-  color: #eee;
-  line-height: 1.2;
+  color: #fff;
   font-size: 0.8em;
   text-align: center;
 }
 
 main {
-  height: 10vh;
+  text-align: center;
+  margin: auto;
+  width: 50vw;
   overflow: auto;
   position: relative;
-}
-
-input {
-  width: 40vw;
 }
 
 /*# sourceMappingURL=style.css.map */
