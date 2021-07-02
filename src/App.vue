@@ -1,12 +1,13 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+  <user></user>
 </template>
 
 <script>
-
+import user from './components/UserProfile.vue'
 export default {
   name: 'App',
   components: {
+    user
   }
 }
 </script>
