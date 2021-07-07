@@ -1,0 +1,42 @@
+$base-color: #fff;
+
+.navbar {
+  z-index: 1;
+}
+
+video {
+  object-fit: cover;
+  width: 100vw;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+section {
+  margin-top: 40vh; /* poussé de la moitié de hauteur de viewport */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+}
+
+.viewport-header {
+  position: relative;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+  
+h1 {
+  font-family: 'Syncopate', sans-serif;
+  color: $base-color;
+  font-size: 0.8em;
+  text-align: center;
+}
+  
+main {
+  text-align: center;
+  margin: auto;
+  width: 50vw;
+  overflow: auto;
+  position: relative;
+}

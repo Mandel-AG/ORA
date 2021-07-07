@@ -37,5 +37,5 @@
 </script>
 
 <style scoped>
-    @import '../style/user.css';
+    @import '../styles/user.css';
 </style>
